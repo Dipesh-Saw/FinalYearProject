@@ -3,9 +3,8 @@
 \*-----------------------------------*/
 
 /**
- * copyright 2022 @codewithsadee 
+ * copyright 2022 @codewithsadee
  */
-
 
 
 
@@ -62,7 +61,7 @@
   --border-radius-sm: 5px;
 
   /**
-   * transition 
+   * transition
    */
 
   --transition-timing: 0.2s ease;
@@ -134,8 +133,6 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 
 
 
-
-
 /*-----------------------------------*\
   #REUSED STYLE
 \*-----------------------------------*/
@@ -179,7 +176,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 \*-----------------------------------*/
 
 /**
- * overlay 
+ * overlay
  */
 
 .overlay {
@@ -203,7 +200,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 
 
 /**
- * MODAL 
+ * MODAL
  */
 
 .modal {
@@ -332,7 +329,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 
 
 /**
- * NOTIFICATION TOAST 
+ * NOTIFICATION TOAST
  */
 
 .notification-toast {
@@ -1632,7 +1629,7 @@ footer {
 
 
 /**
- * footer nav 
+ * footer nav
  */
 
 .footer-nav {
@@ -1749,7 +1746,7 @@ footer {
   :root {
 
     /**
-     * typography 
+     * typography
      */
 
     --fs-1: 1.875rem;
@@ -1819,7 +1816,7 @@ footer {
 
 
   /**
-   * #PRODUCT 
+   * #PRODUCT
    */
 
   .product-grid {
@@ -1974,7 +1971,7 @@ footer {
   :root {
 
     /**
-     * typography 
+     * typography
      */
 
     --fs-1: 2.375rem;
@@ -1984,7 +1981,7 @@ footer {
 
 
   /**
-   * #BASE 
+   * #BASE
    */
 
   html { font-size: 17px; }
@@ -1992,7 +1989,7 @@ footer {
 
 
   /**
-   * #REUSED STYLE 
+   * #REUSED STYLE
    */
 
   .container {
@@ -2001,9 +1998,9 @@ footer {
   }
 
 
-  
+
   /**
-   * #MODAL 
+   * #MODAL
    */
 
   .modal-content {
@@ -2020,7 +2017,7 @@ footer {
 
 
   /**
-   * #HEADER 
+   * #HEADER
    */
 
   .header-main .container { gap: 80px; }
@@ -2030,7 +2027,7 @@ footer {
 
 
   /**
-   * #BANNER 
+   * #BANNER
    */
 
   .slider-item {
@@ -2051,7 +2048,7 @@ footer {
 
 
   /**
-   * #CATEGORY 
+   * #CATEGORY
    */
 
   .category-img-box { padding: 20px; }
@@ -2059,7 +2056,7 @@ footer {
 
 
   /**
-   * #PRODUCT 
+   * #PRODUCT
    */
 
   .product-minimal {
@@ -2075,7 +2072,7 @@ footer {
   }
 
   .product-minimal .showcase-container { min-width: 100%; }
-  
+
   .product-featured .showcase {
     display: flex;
     justify-content: center;
@@ -2093,7 +2090,7 @@ footer {
 
 
   /**
-   * #FOOTER 
+   * #FOOTER
    */
 
   .footer-nav .container {
@@ -2130,7 +2127,7 @@ footer {
   :root {
 
     /**
-     * typography 
+     * typography
      */
 
     --fs-1: 2.625rem;
@@ -2141,7 +2138,7 @@ footer {
 
 
   /**
-   * #REUSED STYLE 
+   * #REUSED STYLE
    */
 
   .container { max-width: 980px; }
@@ -2149,7 +2146,7 @@ footer {
 
 
   /**
-   * #NOTIFICATION TOAST 
+   * #NOTIFICATION TOAST
    */
 
   .notification-toast { bottom: 30px; }
@@ -2157,7 +2154,7 @@ footer {
 
 
   /**
-   * #HEADER 
+   * #HEADER
    */
 
   .header-social-container {
@@ -2228,7 +2225,7 @@ footer {
   }
 
   .desktop-menu-category-list .menu-category > .menu-title:hover { color: var(--salmon-pink); }
-  
+
   .desktop-menu-category-list .menu-category > .menu-title::after {
     content: '';
     position: absolute;
@@ -2340,7 +2337,7 @@ footer {
 
 
   /**
-   * #BANNER 
+   * #BANNER
    */
 
   .banner { margin-top: 0; }
@@ -2361,7 +2358,7 @@ footer {
 
 
   /**
-   * #CATEGORY 
+   * #CATEGORY
    */
 
   .category-item { min-width: calc(33.33% - 20px); }
@@ -2371,7 +2368,7 @@ footer {
 
 
   /**
-   * #PRODUCT 
+   * #PRODUCT
    */
 
   .product-container .container {
@@ -2427,7 +2424,7 @@ footer {
 
 
   /**
-   * #TESTIMONIALS, CTA & SERVICE 
+   * #TESTIMONIALS, CTA & SERVICE
    */
 
   .testimonials-box {
@@ -2493,7 +2490,7 @@ footer {
 @media (min-width: 1200px) {
 
   /**
-   * #REUSED STYLE 
+   * #REUSED STYLE
    */
 
   .container { max-width: 1200px; }
@@ -2571,7 +2568,7 @@ footer {
    */
 
   .blog { margin-bottom: 50px; }
-  
+
   .blog-card { min-width: calc(25% - 22.5px); }
 
 
@@ -2602,7 +2599,7 @@ footer {
 @media (min-width: 1400px) {
 
   /**
-   * #BASE 
+   * #BASE
    */
 
   html { font-size: 18px; }
@@ -2610,7 +2607,7 @@ footer {
 
 
   /**
-   * #REUSED STYLE 
+   * #REUSED STYLE
    */
 
   .container { max-width: 1350px; }
